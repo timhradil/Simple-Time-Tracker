@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		558CBB3029C7CFB60050D022 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558CBB2F29C7CFB60050D022 /* StatsView.swift */; };
 		55AEF14C29C3BBFC00C98C7B /* SimpleTimeTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AEF14B29C3BBFC00C98C7B /* SimpleTimeTrackerApp.swift */; };
 		55AEF14E29C3BBFC00C98C7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AEF14D29C3BBFC00C98C7B /* ContentView.swift */; };
 		55AEF15029C3BBFD00C98C7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55AEF14F29C3BBFD00C98C7B /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		558CBB2F29C7CFB60050D022 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
 		55AEF14829C3BBFC00C98C7B /* SimpleTimeTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTimeTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55AEF14B29C3BBFC00C98C7B /* SimpleTimeTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTimeTrackerApp.swift; sourceTree = "<group>"; };
 		55AEF14D29C3BBFC00C98C7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				55AEF14F29C3BBFD00C98C7B /* Assets.xcassets */,
 				55AEF15429C3BBFD00C98C7B /* SimpleTimeTracker.entitlements */,
 				55AEF15129C3BBFD00C98C7B /* Preview Content */,
+				558CBB2F29C7CFB60050D022 /* StatsView.swift */,
 			);
 			path = SimpleTimeTracker;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			files = (
 				55AEF14E29C3BBFC00C98C7B /* ContentView.swift in Sources */,
 				55AEF14C29C3BBFC00C98C7B /* SimpleTimeTrackerApp.swift in Sources */,
+				558CBB3029C7CFB60050D022 /* StatsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +278,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,6 +306,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
